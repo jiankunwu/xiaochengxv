@@ -1,0 +1,15 @@
+/**welcomePage.wxss**/
+.welcomePage {
+  font-size: 45rpx;
+  width: 600rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  text-align: center;
+  color: gold;
+  margin-top: -30rpx;
+  margin-left: -300rpx;
+  font-weight: 600;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}

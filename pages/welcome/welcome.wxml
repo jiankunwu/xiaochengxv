@@ -1,0 +1,2 @@
+<image src='../../imgs/wxWelcome0.png' style='width:100%;' mode="widthFix"></image>
+<view class="welcomePage">{{welcome}}</view>

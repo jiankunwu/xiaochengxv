@@ -1,0 +1,6 @@
+/**index.wxss**/
+.indexContainer{
+  width: 300rpx;
+  height: 300rpx;
+  background-color: firebrick;
+}
