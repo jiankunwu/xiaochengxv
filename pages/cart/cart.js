@@ -1,24 +1,17 @@
 Page({
+
   /**
    * 页面的初始数据
    */
   data: {
-    welcome:'馨艺书院'
+    
   },
-toHome:function(){
-  wx.redirectTo({
-    url: '../home/home'
-  })
-},
+
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    setTimeout(function(){
-      // wx.redirectTo({
-      //   url: '../home/home'
-      // })
-    },2000)
+    
   },
 
   /**
