@@ -1,0 +1,6 @@
+<view class='cartContainer'>
+<image mode='widthFix' src='../../imgs/cart-null.png'></image>
+<view class='tapsText'>
+空空如也 ...
+</view>
+</view>

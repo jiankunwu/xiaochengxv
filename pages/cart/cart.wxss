@@ -1,0 +1,17 @@
+.cartContainer{
+  width:300rpx;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  margin-left: -150rpx;
+}
+.cartContainer image{
+  width: 100%;
+}
+.tapsText{
+text-align: center;
+width:320rpx;
+font-size: 14px;
+margin-top: -50rpx;
+color: gainsboro;
+}

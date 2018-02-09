@@ -1,4 +1,27 @@
 <!--index.wxml-->
 <view class="homeContainer">
- 
+  <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{imgUrls}}" wx:key="property">
+      <swiper-item>
+        <image src="{{item}}" class="slide-image" />
+      </swiper-item>
+    </block>
+  </swiper>
+  <view class='location'>
+    {{bookCity}}
+  </view>
+  <view class='contentTitle'>推荐</view>
+  <scroll-view class='homeScroll0' scroll-x="true">
+    <view class='scrollItem'  wx:for="{{scroll0Src}}" wx:key="property">
+     <image src='{{item.src}}' mode="widthFix">PIC</image>
+      <view class='scrollText'>{{item.dic}}</view>
+     </view>
+  </scroll-view>
+  <view class='contentTitle'>热卖</view>
+    <scroll-view class='homeScroll0' scroll-x="true">
+    <view class='scrollItem'  wx:for="{{scroll0Src}}" wx:key="property">
+     <image src='{{item.src}}' mode="widthFix">PIC</image>
+      <view class='scrollText'>{{item.dic}}</view>
+     </view>
+  </scroll-view>
 </view>

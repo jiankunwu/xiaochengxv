@@ -6,7 +6,7 @@ Page({
     welcome:'馨艺书院'
   },
 toHome:function(){
-  wx.redirectTo({
+  wx.switchTab({
     url: '../home/home'
   })
 },
@@ -15,9 +15,9 @@ toHome:function(){
    */
   onLoad: function (options) {
     setTimeout(function(){
-      // wx.redirectTo({
-      //   url: '../home/home'
-      // })
+      wx.switchTab({
+        url: '../home/home'
+      })
     },2000)
   },
 

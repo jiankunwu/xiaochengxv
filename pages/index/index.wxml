@@ -1,4 +1,4 @@
 <view class="welcomeImg">
-<image src='../../imgs/wxWelcome0.png' style='width:100%;' mode="widthFix"></image>
+<image src='../../imgs/wxWelcome2.png' style='width:100%;' mode="widthFix"></image>
 </view>
 <view class="welcomePage" bindtap='toHome'>{{welcome}}</view>
